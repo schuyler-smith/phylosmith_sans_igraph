@@ -1,0 +1,29 @@
+Changes in version 1.0.0
++ Accepted in the Journal of Open Source Software
+
+Changes in version 1.0.1
++ Add taxa_core()
+
+Changes in version 1.0.2
++ Add taxa_core_graph()
++ update taxa_filter() routine
++ update plot graphics for publishing figures (font sizes)
+
+Changes in version 1.0.3
++ Add alpha_diversity_graph()
+
+Changes in version 1.0.4
++ Add method options for co-occurrence calculations
++ Update routines for co-occurrence
++ Add PCoA
++ Add variable correlations
+
+Changes in version 1.0.5
++ Add checks to force taxa_are_rows = TRUE
++ Add methods for all ordinations
+
+Changes in version 1.0.6
++ add taxa_prune function
++ update melt function for increased efficiency
++ fix dependencies
++ add label arguments for graphics

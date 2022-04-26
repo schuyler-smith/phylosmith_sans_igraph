@@ -1,0 +1,46 @@
+Package: phylosmith
+Title: Functions to help analyze data as phyloseq objects
+Version: 1.0.6
+Author: Schuyler Smith <sdsmith@iastate.edu>
+Maintainer: Schuyler Smith <sdsmith@iastate.edu>
+Description: Functions for analyzing phyloseq objects.
+biocViews: Software, Sequencing, Microbiome, 
+    Metagenomics, Clustering, Classification, 
+    MultipleComparison, GeneticVariability, Visualization
+URL: https://schuyler-smith.github.io/phylosmith/
+BugReports: https://github.com/schuyler-smith/phylosmith.issues
+Depends:
+    R (>= 3.5)
+Imports:
+    phyloseq,
+    data.table,
+    RcppParallel,
+    parallel,
+    stats,
+    grDevices,
+    RColorBrewer,
+    ggplot2,
+    ggraph,
+    ggrepel,
+    sf,
+    vegan,
+    Rtsne,
+    stringr
+LinkingTo: 
+    Rcpp,
+    RcppParallel,
+    RcppArmadillo,
+    RcppProgress
+Suggests:
+    knitr,
+    devtools,
+    rmarkdown,
+    testthat,
+    BiocStyle
+SystemRequirements: C++11
+NeedsCompilation: yes
+VignetteBuilder: knitr
+License: GPL-3
+LazyData: true
+RoxygenNote: 7.1.2
+Encoding: UTF-8

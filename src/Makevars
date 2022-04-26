@@ -1,0 +1,4 @@
+PKG_CXXFLAGS = -I../inst/include 
+PKG_LIBS =  -DARMA_64BIT_WORD
+
+CXX_STD = CXX11
